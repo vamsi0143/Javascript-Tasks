@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Question1
 =========
 console.log("10" + 5)
@@ -245,3 +246,252 @@ Student Pass or Fail
         console.log(Number(true));  // Output is 1
 
 
+=======
+Question1
+=========
+console.log("10" + 5)
+
+Output is: 105 and Datatype is String
+Question2
+=========
+console.log(10 + true)
+
+Output is: 11 and Datatype is Number
+Question3
+=========
+console.log(false + null)
+
+Output is: 0 and Datatype is Number
+Question4
+=========
+console.log("Hello" + undefined)
+
+Output is: Helloundefined and Datatype is String
+Question5
+=========
+console.log([1,2] + 5)
+
+Output is: 1,25 and Datatype is String
+
+Implicit TypeCasting
+====================
+Question1
+---------
+String + Number
+let a = "7";
+let b = 5;
+console.log(typeof((a + b)));
+
+Output is: 75 and Datatype is String
+Question2
+---------
+Boolean + Number 
+let c=true;
+let d=8;
+console.log(typeof((c + D)));
+
+Output is: 9 and Datatype is Number
+Question3
+---------
+Array + String 
+
+let e=[1,2,3];
+let f="10";
+console.log(typeof((e + f)));
+
+Output is: 1,2,310 and Datatype is String
+Question4
+---------
+Object + Number 
+
+let r = {name: "Vamsi"};
+let s = 6;
+console.log(typeof((r + s)));
+
+Output is: [object]6 and Datatype is String
+Question5
+---------
+Null + Number 
+
+let x = null;
+let y = 8;
+console.logt(typeof((x + y)));
+
+Output is: 8 and Datatype is Number
+
+Convert the following into Number
+================================
+
+Question1
+---------
+let g = "500";
+console.log(Number(g));
+
+Output is: 500
+Question2
+---------
+let h = true;
+console.log(Number(h))
+
+Output is: 1
+Question3
+---------
+let i = false;
+console.log(Number(i));
+
+Output is: 0
+Question4
+---------
+let j = null;
+console.log(Number(j));
+
+Output is: 0
+Question5
+---------
+let k = "abc";
+console.log(Number(k));
+
+Output is: NaN
+Question6
+---------
+let l = [100];
+console.log(Number(l));
+
+Output is: 100
+
+Check whether below values are true or false using Boolean()
+===========================================================
+
+Question1
+---------
+let m = "";
+console.log(Boolean(m));
+
+Output is: false
+Question2
+---------
+let n = "javascript";
+console.log(Boolean(n));
+
+Output is: true
+Question3
+---------
+let o = 0;
+console.log(Boolean(o));
+
+Output is: false
+Question4
+---------
+let p = 1;
+console.log(Boolean(p));
+
+Output is: true
+Question5
+---------
+let q = null;
+console.log(Boolean(q));
+
+Output is: false
+Question6
+---------
+let t = undefined;
+console.log(Boolean(t));
+
+Output is: false
+Question7
+---------
+let u = [[]];
+console.log(Boolean([u]));
+
+Output is: true
+Question8
+---------
+let v ={};
+console.log(Boolean(v));
+
+Output is: true
+
+Student Pass or Fail
+====================
+        let marks = prompt("Enter Your Marks");
+        if (marks > 35) {
+            alert("Congratulation! You passed");
+        }
+        else {
+            alert("Sorry you got failed");
+        }
+
+        let age = prompt("Please Enter Your Age");
+
+        if (age >= 18) {
+            alert("You are Elgible");
+        }
+        else {
+            alert("Not Elgible");
+        }
+
+        // Greatest Number
+        let a1 = 70;
+        let b1 = 80;
+        let c1 = 110;
+
+        if (a1 > b1 && a1 > c1) {
+            console.log("A is the Greatest Number");
+        }
+        else if (b1 > a1 && b1 > c1) {
+            console.log("B is the Greatest Number");
+        }
+        else {
+            console.log("C is the Greatest Number");
+        }
+        console.clear();
+
+        //Traffic System
+
+        let trafficSignal = "yellow";
+
+        switch (trafficSignal) {
+            case "red":
+                console.log("Stop");
+                break;
+
+            case "yellow":
+                console.log("Go Slow");
+                break;
+            case "green":
+                console.log("Go")
+                break;
+            default:
+                console.log("Invalid");
+        }
+
+        //Session Finder
+
+        let hour = 27;
+
+        if (hour >= 1 && hour <= 12) {
+            console.log("Good Morning");
+        }
+        else if (hour >= 13 && hour <= 15) {
+            console.log("Good Afternoon");
+        }
+        else if (hour >= 16 && hour <= 19) {
+            console.log("Good Evening");
+        }
+        else if (hour >= 20 && hour <= 24) {
+            console.log("Good night");
+        }
+        else {
+            console.log("Please enter the Valid time");
+        }
+
+        console.log(true + true);   // Output is 2
+        console.log("5" - 2);       // Output is 3
+        console.log("5" + 2);       // Output is 52
+        console.log(null + 1);      // Output is 1
+        console.log(undefined + 1); // Output is NaN
+        console.log(Boolean(" "));  // Output is true
+        console.log(Number(true));  // Output is 1
+
+
+>>>>>>> master

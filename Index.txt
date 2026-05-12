@@ -1,0 +1,289 @@
+Question1
+=========
+var a=10;
+a=15;
+console.log(a);
+
+Output is: 15
+
+Question2
+=========
+let b=20;
+let b=30;
+console.log(b);
+
+Output: Syntax error - let can not use re intialisation.
+
+Question3
+=========
+const c=50;
+console.log(c);
+
+Output is: 50
+
+Question4
+=========
+const x=10;
+x=20;
+
+Output: Here Const variable is static, once we assigned the value it can not change.
+
+Question5
+=========
+var p=5;
+var p=10;
+console.log(p);
+
+Output is: 10
+
+Question6
+=========
+let q = 25;
+q = q + 10;
+console.log(q);
+
+Output is: 35
+
+Question7
+=========
+const r = 7;
+console.log(r + 3);
+
+Output is: 10
+
+Question8
+=========
+let
+___ a = 10;
+
+Here we can use var,let and const but most commonly used let keyword.
+
+Question9
+=========
+Which method prints normal output? 
+
+Ans: console.log();- It is used to print console.
+	 document.write();- It is used to print in webpage.
+	 
+Question10
+==========
+Which method shows warning? 
+
+Ans: console.warm();- It is used to print warning message in webpage.
+
+Question11
+==========
+Which method shows error? 
+
+Ans: console.error();- It is used to show an error in console.
+
+Question12
+==========
+What does this do? 
+console.clear();
+
+Ans: It is used to clear all above information/messages
+
+Question13
+==========
+let a = "hello";
+console.log(typeof a);
+
+Output is: String- Typeof checks the datatype.
+
+Question14
+==========
+let b = 100;
+console.log(typeof b);
+
+Output is: Number
+
+Question15
+==========
+let c = false;
+console.log(typeof c);
+
+Output is: Boolean
+
+Question16
+==========
+let d;
+console.log(d);
+
+Output is: Undefined
+
+Question17
+==========
+What is type of null? 
+
+Ans; The typeof null is Object
+
+Question18
+==========
+Convert string to number:
+
+Ans: let a="200";
+	 let b=Number(a);
+	 console.log(b);
+	 console.log(typeof b);
+Output: 200
+		Number
+		
+Question19
+==========
+Create array of 3 Fruits?
+
+Ans: let g=["Apple","Banana","Orange"];
+console.log(g);
+
+Question20
+==========
+let arr = ["a","b","c"];
+console.log(arr[1]);
+
+Output is: b 
+
+Question21
+==========
+let arr1 = ["x","y","z"];
+console.log(arr1[arr1.length-1]);
+
+Output is: z
+
+Question22
+==========
+How to get first element? 
+
+Ans: console.log(arr[0]);
+
+Question23
+=========
+let arr = ["apple","banana"];
+console.log(arr.length);
+
+Output is: 2
+
+Question24
+==========
+Add new element to array. 
+
+Ans: we can use push method to add the elements.
+
+Question25
+==========
+Create object with name & age. 
+let can = {
+            name: "vamsi",
+            age: 30
+        };
+        console.log(can);
+		
+Question26
+==========
+let obj = { name: "Vamsi" };
+    console.log(obj.name);
+Output is: Vamsi
+
+Question27
+==========
+let obj1 = {
+  fruits: ["apple","banana"]
+  };
+console.log(obj1.fruits[1]);
+
+Output is: banana
+
+Question28
+==========
+28.	How to access last element inside object array? 
+
+let obj2=[
+{name:"Kiran", age:25},
+{name:"Vamsi", age:30},
+{name:"Suman", age:32}
+]
+console.log(obj2[obj.length-1]);
+
+Output is: name: 'suman', age:32
+
+Question29
+==========
+console.log(5 + 3);
+
+Output is: 8
+
+Question30
+==========
+console.log(10 % 3);
+
+Output is: 1
+
+Question31
+==========
+console.log(2 ** 3);
+
+Output is: 8
+
+Question32
+==========
+console.log(10 / 2);
+
+Output is: 5
+
+Question33
+==========
+let ab = 5;
+    ab++;
+    console.log(ab);
+	
+Output is: 6
+
+Question34
+==========
+let h = 5;
+let i = h++;
+console.log(h, i);
+
+Output is: 6  5
+
+Question35
+==========
+let x1 = 5;
+let y1 = ++x1;
+console.log(x1, y1);
+
+Output is: 6  6
+
+Question36
+==========
+let m = 3;
+let n = m--;
+console.log(m, n);
+
+Output is: 2  3
+
+Question37
+==========
+console.log(5 == "5");
+
+Output is: True
+
+Question38
+==========
+console.log(5 === "5");
+
+Output is: False
+
+Question39
+==========
+console.log(true && false || true);
+
+Output is: False
+
+Question40
+==========
+5 > 3 ? console.log("Yes") : console.log("No");
+
+Output is: Yes
+
+
